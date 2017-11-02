@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class mathTutor
 
     Private Sub lblAnswer_Click(sender As Object, e As EventArgs) Handles lblAnswer.Click
 

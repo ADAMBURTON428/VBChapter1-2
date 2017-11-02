@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class mathTutor
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -55,7 +55,7 @@ Partial Class Form1
         Me.lblAnswer.TabIndex = 2
         Me.lblAnswer.Text = "18 + 64 = ?"
         '
-        'Form1
+        'mathTutor
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -63,8 +63,8 @@ Partial Class Form1
         Me.Controls.Add(Me.lblAnswer)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnShow)
-        Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Name = "mathTutor"
+        Me.Text = "Math Tutor"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
