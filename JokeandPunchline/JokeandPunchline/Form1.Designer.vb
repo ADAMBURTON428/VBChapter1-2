@@ -56,10 +56,10 @@ Partial Class JokeandPunchline
         'lblJoke
         '
         Me.lblJoke.AutoSize = True
-        Me.lblJoke.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblJoke.Location = New System.Drawing.Point(12, 20)
+        Me.lblJoke.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblJoke.Location = New System.Drawing.Point(12, 72)
         Me.lblJoke.Name = "lblJoke"
-        Me.lblJoke.Size = New System.Drawing.Size(214, 24)
+        Me.lblJoke.Size = New System.Drawing.Size(160, 16)
         Me.lblJoke.TabIndex = 2
         Me.lblJoke.Text = "Click buttons for jokes"
         '
@@ -139,7 +139,7 @@ Partial Class JokeandPunchline
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(681, 399)
+        Me.ClientSize = New System.Drawing.Size(451, 399)
         Me.Controls.Add(Me.btnPunchline5)
         Me.Controls.Add(Me.btnPunchline4)
         Me.Controls.Add(Me.btnSetup5)
