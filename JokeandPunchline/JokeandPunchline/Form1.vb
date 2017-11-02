@@ -17,11 +17,27 @@
     End Sub
 
     Private Sub btnSetup3_Click(sender As Object, e As EventArgs) Handles btnSetup3.Click
-        lblJoke.Text = ""
+        lblJoke.Text = "Why did the blind man cross the road?"
     End Sub
 
 
     Private Sub btnPunchline3_Click(sender As Object, e As EventArgs) Handles btnPunchline3.Click
-        lblJoke.Text =
+        lblJoke.Text = "He was following his seeing-eye chicken."
+    End Sub
+
+    Private Sub Button1btnSetup4_Click(sender As Object, e As EventArgs) Handles Button1btnSetup4.Click
+        lblJoke.Text = "Why did the turkey refuse dessert?"
+    End Sub
+
+    Private Sub btnPunchline4_Click(sender As Object, e As EventArgs) Handles btnPunchline4.Click
+        lblJoke.Text = "He was stuffed."
+    End Sub
+
+    Private Sub btnSetup5_Click(sender As Object, e As EventArgs) Handles btnSetup5.Click
+        lblJoke.Text = "I can't believe I got fired from the calendear factory."
+    End Sub
+
+    Private Sub btnPunchline5_Click(sender As Object, e As EventArgs) Handles btnPunchline5.Click
+        lblJoke.Text = "All I did was take a day off"
     End Sub
 End Class

@@ -29,6 +29,10 @@ Partial Class JokeandPunchline
         Me.btnSetup3 = New System.Windows.Forms.Button()
         Me.btnPunchline2 = New System.Windows.Forms.Button()
         Me.btnPunchline3 = New System.Windows.Forms.Button()
+        Me.Button1btnSetup4 = New System.Windows.Forms.Button()
+        Me.btnSetup5 = New System.Windows.Forms.Button()
+        Me.btnPunchline4 = New System.Windows.Forms.Button()
+        Me.btnPunchline5 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnSetup
@@ -95,11 +99,51 @@ Partial Class JokeandPunchline
         Me.btnPunchline3.Text = "PunchLine"
         Me.btnPunchline3.UseVisualStyleBackColor = True
         '
+        'Button1btnSetup4
+        '
+        Me.Button1btnSetup4.Location = New System.Drawing.Point(41, 274)
+        Me.Button1btnSetup4.Name = "Button1btnSetup4"
+        Me.Button1btnSetup4.Size = New System.Drawing.Size(75, 23)
+        Me.Button1btnSetup4.TabIndex = 7
+        Me.Button1btnSetup4.Text = "Setup "
+        Me.Button1btnSetup4.UseVisualStyleBackColor = True
+        '
+        'btnSetup5
+        '
+        Me.btnSetup5.Location = New System.Drawing.Point(41, 318)
+        Me.btnSetup5.Name = "btnSetup5"
+        Me.btnSetup5.Size = New System.Drawing.Size(75, 23)
+        Me.btnSetup5.TabIndex = 8
+        Me.btnSetup5.Text = "Setup "
+        Me.btnSetup5.UseVisualStyleBackColor = True
+        '
+        'btnPunchline4
+        '
+        Me.btnPunchline4.Location = New System.Drawing.Point(171, 274)
+        Me.btnPunchline4.Name = "btnPunchline4"
+        Me.btnPunchline4.Size = New System.Drawing.Size(75, 23)
+        Me.btnPunchline4.TabIndex = 9
+        Me.btnPunchline4.Text = "PunchLine"
+        Me.btnPunchline4.UseVisualStyleBackColor = True
+        '
+        'btnPunchline5
+        '
+        Me.btnPunchline5.Location = New System.Drawing.Point(171, 318)
+        Me.btnPunchline5.Name = "btnPunchline5"
+        Me.btnPunchline5.Size = New System.Drawing.Size(75, 23)
+        Me.btnPunchline5.TabIndex = 10
+        Me.btnPunchline5.Text = "PunchLine"
+        Me.btnPunchline5.UseVisualStyleBackColor = True
+        '
         'JokeandPunchline
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(459, 262)
+        Me.ClientSize = New System.Drawing.Size(681, 399)
+        Me.Controls.Add(Me.btnPunchline5)
+        Me.Controls.Add(Me.btnPunchline4)
+        Me.Controls.Add(Me.btnSetup5)
+        Me.Controls.Add(Me.Button1btnSetup4)
         Me.Controls.Add(Me.btnPunchline3)
         Me.Controls.Add(Me.btnPunchline2)
         Me.Controls.Add(Me.btnSetup3)
@@ -120,5 +164,9 @@ Partial Class JokeandPunchline
     Friend WithEvents btnSetup3 As System.Windows.Forms.Button
     Friend WithEvents btnPunchline2 As System.Windows.Forms.Button
     Friend WithEvents btnPunchline3 As System.Windows.Forms.Button
+    Friend WithEvents Button1btnSetup4 As System.Windows.Forms.Button
+    Friend WithEvents btnSetup5 As System.Windows.Forms.Button
+    Friend WithEvents btnPunchline4 As System.Windows.Forms.Button
+    Friend WithEvents btnPunchline5 As System.Windows.Forms.Button
 
 End Class
